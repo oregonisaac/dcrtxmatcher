@@ -65,11 +65,13 @@ Building libraries
 
 #### gmp: https://gmplib.org/
 
+\> $ cd ..
+
 \> $ lzip -d gmp-6.1.2.tar.lz 
   
 \> $ tar -xf gmp-6.1.2.tar
 
-\> cd ../gmp-6.1.2
+\> cd gmp-6.1.2
 
 \> $ ./configure && make
 
@@ -79,7 +81,11 @@ Building libraries
 
 #### mpfr: https://www.mpfr.org
 
-\> $ cd ../mpfr-4.0.1
+\> $ cd ..
+
+\> $ tar xf mpfr-4.0.1.tar.xf
+
+\> $ cd mpfr-4.0.1
 
 \> $ ./configure && make
 
