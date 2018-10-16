@@ -1,13 +1,12 @@
-
 # Dcrtxmatcher server for join split transaction.
 
-Dcrtxmatcher refers dicemix and coinshuffle++ to perform coinjoin as in https://crypsys.mmci.uni-saarland.de/projects/FastDC/paper.pdf
+Dcrtxmatcher is built utilizing dicemix and coinshuffle++ to perform coinjoin as in https://crypsys.mmci.uni-saarland.de/projects/FastDC/paper.pdf
 
 Dicemix uses flint libs to solve polynomial to get roots as peer's output address. So we need to build flint libs and dependency.
 
-There are two options to get it works. The first is download header files and prebuilt libs. This method is quick and easy. The second is building from scratch with source download.
+There are two options to build your server.  Quick and easy (will work for most systems); download header files and prebuilt libs. Slower custom build (best option to ensure optimized performance on all systems); build the dependencies from scratch with source download.
 
-## Download header files and pre-built libs
+## Download header files and pre-built libs (quick and easy option)
 
 \> $ mkdir -p ~/go/src/github.com/raedahgroup
 
@@ -23,7 +22,7 @@ There are two options to get it works. The first is download header files and pr
 
 All steps finish then continue with part *Install golang and dcrtxmatcher*
 
-## Build flint from scratch (suggestion)
+## Build flint from scratch (custom optimized performance option)
 
 #### Install software
 
